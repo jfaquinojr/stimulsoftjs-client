@@ -1,27 +1,28 @@
-# StimulsoftClient
+# StimulsoftClient Test
+
+This project was created to show that the library stimulsoft-reports-js does not work out of the box.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
 
-## Development server
+Then I added the stimulsoft-reports-js library
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+    yarn add stimulsoft-reports-js
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Then I showed the designer by simplifying some of the stuff from their [docs](https://www.stimulsoft.com/en/documentation/online/programming-manual/reports_js_running_designer.htm).
 
-## Build
+see `app.component`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Check it out
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    $ git clone https://github.com/jfaquinojr/stimulsoftjs-client.git  
+    $ cd stimulsoftjs-client  
+    $ yarn  
+    $ ng serve
 
-## Running end-to-end tests
+ERROR!
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+I might have missed something along the way. If you know what that is, please file an issue or submit a PR.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Any help is greatly appreciated! Thanks.
